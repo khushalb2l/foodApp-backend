@@ -2,7 +2,7 @@ import express,{Request,Response} from "express";
 import cors from "cors";
 import "dotenv/config";
 import mongoose from "mongoose";
-import myUserRoute from "./routes/MyUserRoute";
+import myUserRoute from "./routes/myUserRoute";
 import myRestaurantRoute from "./routes/MyRestaurantRoute";
 import {v2 as cloudinary} from 'cloudinary';
 
